@@ -1,0 +1,17 @@
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.csproj.AssemblyReference.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.AssemblyInfoInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.AssemblyInfo.cs
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.csproj.CoreCompileInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Services.deps.json
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Services.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Services.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Core.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Data.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Core.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\bin\Debug\net7.0\QLNV.Data.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.csproj.CopyComplete
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\refint\QLNV.Services.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\QLNV.Services.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Services\obj\Debug\net7.0\ref\QLNV.Services.dll
