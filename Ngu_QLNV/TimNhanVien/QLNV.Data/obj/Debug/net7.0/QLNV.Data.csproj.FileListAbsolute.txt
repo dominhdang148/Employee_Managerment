@@ -1,0 +1,17 @@
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.AssemblyReference.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfoInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfo.cs
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CoreCompileInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.deps.json
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.runtimeconfig.json
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Core.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Core.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CopyComplete
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\refint\QLNV.Data.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.genruntimeconfig.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Data\obj\Debug\net7.0\ref\QLNV.Data.dll
