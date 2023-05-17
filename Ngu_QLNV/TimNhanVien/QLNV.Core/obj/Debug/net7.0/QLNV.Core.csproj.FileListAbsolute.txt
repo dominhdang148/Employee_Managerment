@@ -1,0 +1,12 @@
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\bin\Debug\net7.0\QLNV.Core.deps.json
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\bin\Debug\net7.0\QLNV.Core.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\bin\Debug\net7.0\QLNV.Core.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.csproj.AssemblyReference.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.AssemblyInfoInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.AssemblyInfo.cs
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.csproj.CoreCompileInputs.cache
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\refint\QLNV.Core.dll
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\QLNV.Core.pdb
+C:\Users\Maxsys\Documents\GitHub\Employee_Managerment\Ngu_QLNV\TimNhanVien\QLNV.Core\obj\Debug\net7.0\ref\QLNV.Core.dll
