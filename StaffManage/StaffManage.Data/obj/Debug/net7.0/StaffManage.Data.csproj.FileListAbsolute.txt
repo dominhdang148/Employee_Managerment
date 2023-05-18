@@ -1,0 +1,15 @@
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.csproj.AssemblyReference.cache
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.AssemblyInfoInputs.cache
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.AssemblyInfo.cs
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.csproj.CoreCompileInputs.cache
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\bin\Debug\net7.0\StaffManage.Data.deps.json
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\bin\Debug\net7.0\StaffManage.Data.dll
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\bin\Debug\net7.0\StaffManage.Data.pdb
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\bin\Debug\net7.0\StaffManage.Core.dll
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\bin\Debug\net7.0\StaffManage.Core.pdb
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.csproj.CopyComplete
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.dll
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\refint\StaffManage.Data.dll
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\StaffManage.Data.pdb
+D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Data\obj\Debug\net7.0\ref\StaffManage.Data.dll
