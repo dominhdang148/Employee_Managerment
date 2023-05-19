@@ -13,5 +13,100 @@ namespace StaffManage.Services.Manager
         public StaffRepository(StaffDbContext context) => _context = context;
 
         // Code truy vấn ở đây
+
+        // Các phương thức Cập nhật của Hưng
+        public async Task<bool> UpdateCvAsync(
+		CurriculumVitae curriculumVitae, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitae.Id > 0)
+                _context.CurriculumVitae.Update(curriculumVitae);
+
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateNameAsync(int curriculumVitaeId,
+		string newName, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.Name,newName));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateGenderAsync(int curriculumVitaeId, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0){
+                var curriculumVitaes = _context.CurriculumVitae.ToList();
+                foreach(var curriculumVitae in curriculumVitaes){
+                    if(curriculumVitae.Id == curriculumVitaeId){
+                        curriculumVitae.Gender = !curriculumVitae.Gender;
+                        _context.CurriculumVitae.Update(curriculumVitae);
+                    }
+                }
+            }
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateBirthdateAsync(int curriculumVitaeId,
+		DateTime newBirthDate, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.DateOfBirth,newBirthDate));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+        
+        public async Task<bool> UpdateJoinedDateAsync(int curriculumVitaeId,
+		DateTime newJoinedDate, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.JoinedDate,newJoinedDate));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateImgUrlAsync(int curriculumVitaeId,
+		string newUrl, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.PortraitUrl,newUrl));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdatePhoneNumberAsync(int curriculumVitaeId,
+		string newPhoneNumber, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.PhoneNumber,newPhoneNumber));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateCCCDAsync(int curriculumVitaeId,
+		string newCCCD, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.IdentityCardNumber,newCCCD));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<bool> UpdateAddressAsync(int curriculumVitaeId,
+		string newAddress, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.Address,newAddress));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+        public async Task<bool> UpdateEmailAsync(int curriculumVitaeId,
+		string newEmail, CancellationToken cancellationToken = default)
+        {
+            if (curriculumVitaeId > 0)
+                _context.CurriculumVitae.Where(e=>e.Id == curriculumVitaeId)
+                .ExecuteUpdate(b => b.SetProperty(e=>e.Email,newEmail));
+            return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
     }
 }
