@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Manager\" />
     <Folder Include="Extensions\" />
     <Folder Include="Media\" />
   </ItemGroup>
