@@ -1,0 +1,30 @@
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.AssemblyReference.cache
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfoInputs.cache
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfo.cs
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CoreCompileInputs.cache
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.deps.json
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Data.pdb
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Core.dll
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\bin\Debug\net7.0\QLNV.Core.pdb
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CopyComplete
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\refint\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\QLNV.Data.pdb
+D:\PT_TK\QuanLyNhanVien\QLNV.Data\obj\Debug\net7.0\ref\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\bin\Debug\net7.0\QLNV.Data.deps.json
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\bin\Debug\net7.0\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\bin\Debug\net7.0\QLNV.Data.pdb
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\bin\Debug\net7.0\QLNV.Core.dll
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\bin\Debug\net7.0\QLNV.Core.pdb
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.AssemblyReference.cache
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfoInputs.cache
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.AssemblyInfo.cs
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CoreCompileInputs.cache
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.csproj.CopyComplete
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\refint\QLNV.Data.dll
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\QLNV.Data.pdb
+D:\PT_TK\QuanLyNhanVien - Copy\QLNV.Data\obj\Debug\net7.0\ref\QLNV.Data.dll
