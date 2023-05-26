@@ -1,4 +1,5 @@
-﻿using QLNV.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using QLNV.Core.Entities;
 using QLNV.Data.Context;
 using QLNV.Data.Seeders;
 using QLNV.Services.QLNV;
@@ -90,6 +91,21 @@ foreach (var emp in emps)
     Console.WriteLine("Absence: {0}", emp.Absence);
     Console.WriteLine("".PadRight(80, '-'));
 }
+
+using var dbContext = new StaffDbContext();
+var staffManager = new StaffManager(dbContext);
+
+// Xóa toàn bộ nhân viên
+await staffManager.DeleteAllEmployeesAsync();
+
+// Xóa nhân viên theo tên
+await staffManager.DeleteEmployeesByNameAsync("John");
+
+// Xóa các nhân viên cùng công việc
+await staffManager.DeleteEmployeesByWorkAsync(1);
+
+// Xóa các nhân viên cùng chức vụ
+await staffManager.DeleteEmployeesByPositionAsync(2);
 
 
 

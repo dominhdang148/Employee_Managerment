@@ -18,6 +18,12 @@ namespace QLNV.Services.QLNV
 
 
        Task<bool> AddOrUpdateEmployeeAsync(Employee employee, CancellationToken cancellationToken = default);
-       
-    }
+
+        Task DeleteAllEmployeesAsync(CancellationToken cancellationToken = default);
+        Task DeleteEmployeesByPositionAsync(int positionId, CancellationToken cancellationToken = default);
+        Task DeleteEmployeesByWorkAsync(int workId, CancellationToken cancellationToken = default);
+        Task DeleteEmployeesByNameAsync(string name, CancellationToken cancellationToken = default);
+
+
+	}
 }

@@ -3586,19 +3586,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\TuyenOnichan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QuanLyNhanVien\\QuanLyNhanVien.csproj",
+      "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QuanLyNhanVien\\QuanLyNhanVien.csproj",
       "projectName": "QuanLyNhanVien",
-      "projectPath": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QuanLyNhanVien\\QuanLyNhanVien.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QuanLyNhanVien\\obj\\",
+      "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QuanLyNhanVien\\QuanLyNhanVien.csproj",
+      "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
+      "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QuanLyNhanVien\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3612,14 +3612,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Core\\QLNV.Core.csproj": {
-              "projectPath": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Core\\QLNV.Core.csproj"
+            "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Core\\QLNV.Core.csproj": {
+              "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Core\\QLNV.Core.csproj"
             },
-            "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Data\\QLNV.Data.csproj": {
-              "projectPath": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Data\\QLNV.Data.csproj"
+            "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Data\\QLNV.Data.csproj": {
+              "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Data\\QLNV.Data.csproj"
             },
-            "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Services\\QLNV.Services.csproj": {
-              "projectPath": "D:\\PT_TK\\QuanLyNhanVien - Copy\\QLNV.Services\\QLNV.Services.csproj"
+            "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Services\\QLNV.Services.csproj": {
+              "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\EmployeeManage\\QLNV.Services\\QLNV.Services.csproj"
             }
           }
         }
@@ -3657,7 +3657,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
