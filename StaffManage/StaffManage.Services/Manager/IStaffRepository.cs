@@ -10,14 +10,14 @@ namespace StaffManage.Services.Manager
     interface IStaffRepository
     {
         // Code truy vấn ở đây
-        Task<IEnumerable<Employee>> GetEmployeesByNameAsync(string name, CancellationToken cancellationToken = default);
+        Task<IEnumerable<EmployeeInfo>> GetEmployeesByNameAsync(string name, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<Employee>> GetEmployeesByAddressAsync(string address, CancellationToken cancellationToken = default);
+        Task<IEnumerable<EmployeeInfo>> GetEmployeesByAddressAsync(string address, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<Employee>> GetEmployeesByAgeAsync(string age, CancellationToken cancellationToken = default);
+        Task<IEnumerable<EmployeeInfo>> GetEmployeesByAgeAsync(string age, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<Employee>> GetEmployeesByJobAsync(string job, CancellationToken cancellationToken = default);
+        Task<IEnumerable<EmployeeInfo>> GetEmployeesByJobAsync(string job, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<Employee>> GetEmployeesByTimeOfWorkAsync(string timeOfWork, CancellationToken cancellationToken = default);
+        Task<IEnumerable<EmployeeInfo>> GetEmployeesByTimeOfWorkAsync(string timeOfWork, CancellationToken cancellationToken = default);
     }
 }
