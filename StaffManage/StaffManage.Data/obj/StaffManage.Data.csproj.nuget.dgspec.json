@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {}
+    "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {}
   },
   "projects": {
-    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+    "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
         "projectName": "StaffManage.Core",
-        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
         "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
-        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\obj\\",
+        "outputPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,21 +59,17 @@
         }
       }
     },
-    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+    "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
         "projectName": "StaffManage.Data",
-        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
         "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
-        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\obj\\",
+        "outputPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,15 +77,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
               }
             }
           }
