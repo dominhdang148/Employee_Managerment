@@ -18,7 +18,6 @@ namespace StaffManage.Data.Contexts
         public DbSet<CurriculumVitae> CurriculumVitaes { get; set; }
         public DbSet<Department> Department { get; set; }
         public DbSet<Employee> Employee { get; set; }
-        public DbSet<EmployeeInfo> EmployeeInfo { get; set; }
         public DbSet<Payroll> Payroll { get; set; }
         public DbSet<Position> Position { get; set; }
         public DbSet<Qualification> Qualification { get; set; }
