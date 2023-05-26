@@ -1,13 +1,8 @@
-﻿using StaffManage.Core.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using StaffManage.Core.Contracts;
 
 namespace StaffManage.Core.Entities
 {
-    public class Work:IEntity
+    public class Work : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

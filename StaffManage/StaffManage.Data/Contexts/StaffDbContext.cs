@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StaffManage.Core.Entities;
 using StaffManage.Data.Mappings;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StaffManage.Data.Contexts
 {
