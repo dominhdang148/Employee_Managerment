@@ -28,7 +28,8 @@ namespace StaffManage.Data.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-D79P76S\DOMINHDANG;Database=StaffManage;Trusted_Connection=True;TrustServerCertificate=True");
+            // optionsBuilder.UseSqlServer(@"Server=DESKTOP-D79P76S\DOMINHDANG;Database=StaffManage;Trusted_Connection=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source = DELL\\NGOCSON;Database=StaffManage_3; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

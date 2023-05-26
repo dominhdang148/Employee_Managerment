@@ -10,3 +10,15 @@ D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\ne
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\refint\StaffManage.Core.dll
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.pdb
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\ref\StaffManage.Core.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\bin\Debug\net7.0\StaffManage.Core.deps.json
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\bin\Debug\net7.0\StaffManage.Core.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\bin\Debug\net7.0\StaffManage.Core.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.csproj.AssemblyReference.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.AssemblyInfoInputs.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.AssemblyInfo.cs
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.csproj.CoreCompileInputs.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\refint\StaffManage.Core.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\StaffManage.Core.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Core\obj\Debug\net7.0\ref\StaffManage.Core.dll
