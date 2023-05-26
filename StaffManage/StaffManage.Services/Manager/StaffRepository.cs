@@ -15,29 +15,39 @@ namespace StaffManage.Services.Manager
 
         // Code truy vấn ở đây
         // Tìm nhân viên
-        public async Task<IEnumerable<Employee>> GetEmployeesByNameAsync(string name, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByNameAsync(
+            string name, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(e => e.FullName == name).ToListAsync(cancellationToken);
+            return await _context.Employees.Where(
+                e => e.FullName == name).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<Employee>> GetEmployeesByAddressAsync(string address, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByAddressAsync(
+            string address, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(e => e.Address == address).ToListAsync(cancellationToken);
+            return await _context.Employees.Where(
+                e => e.Address == address).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<Employee>> GetEmployeesByAgeAsync(string age, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByAgeAsync(
+            string age, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(e => e.Age == age).ToListAsync(cancellationToken);
+            return await _context.Employees.Where(
+                e => e.Age == age).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<Employee>> GetEmployeesByJobAsync(string job, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByJobAsync(
+            string job, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(e => e.Job == job).ToListAsync(cancellationToken);
+            return await _context.Employees.Where(
+                e => e.Job == job).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<Employee>> GetEmployeesByTimeOfWorkAsync(string timeOfWork, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByTimeOfWorkAsync(
+            string timeOfWork, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(e => e.TimeOfWork == timeOfWork).ToListAsync(cancellationToken);
+            return await _context.Employees.Where(
+                e => e.TimeOfWork == timeOfWork).ToListAsync(cancellationToken);
         }
 
         // Các phương thức Cập nhật của Hưng
