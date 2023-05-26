@@ -15,20 +15,20 @@ D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debu
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\refint\StaffManage.Services.dll
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.pdb
 D:\BaiTap\TK_PTPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\ref\StaffManage.Services.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.deps.json
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.pdb
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Core.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Data.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Core.pdb
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Data.pdb
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.AssemblyReference.cache
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.AssemblyInfoInputs.cache
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.AssemblyInfo.cs
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.CoreCompileInputs.cache
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.CopyComplete
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\refint\StaffManage.Services.dll
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.pdb
-D:\Học Tập Kỳ 2 Năm 3\PTTKPM\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\ref\StaffManage.Services.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.deps.json
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Services.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Core.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Data.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Core.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\bin\Debug\net7.0\StaffManage.Data.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.AssemblyReference.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.AssemblyInfoInputs.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.AssemblyInfo.cs
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.CoreCompileInputs.cache
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.csproj.CopyComplete
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\refint\StaffManage.Services.dll
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\StaffManage.Services.pdb
+D:\PTTK\Employee_Managerment\StaffManage\StaffManage.Services\obj\Debug\net7.0\ref\StaffManage.Services.dll

@@ -24,6 +24,5 @@ namespace StaffManage.Core.Entities
 
         public IList<Contract> Contracts { get; set; }
         public IList<TrainingHistory> TrainingHistories { get; set; }
-		public int PositionId { get; set; }
-	}
+    }
 }
