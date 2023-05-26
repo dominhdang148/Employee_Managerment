@@ -1,4 +1,5 @@
-﻿using StaffManage.Data.Contexts;
+﻿using StaffManage.Core.Entities;
+using StaffManage.Data.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,31 @@ namespace StaffManage.Services.Manager
         public StaffRepository(StaffDbContext context) => _context = context;
 
         // Code truy vấn ở đây
+        // Tìm nhân viên
+        public async Task<IEnumerable<Employee>> GetEmployeesByNameAsync(string name, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(e => e.FullName == name).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<Employee>> GetEmployeesByAddressAsync(string address, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(e => e.Address == address).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<Employee>> GetEmployeesByAgeAsync(string age, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(e => e.Age == age).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<Employee>> GetEmployeesByJobAsync(string job, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(e => e.Job == job).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<Employee>> GetEmployeesByTimeOfWorkAsync(string timeOfWork, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(e => e.TimeOfWork == timeOfWork).ToListAsync(cancellationToken);
+        }
 
         // Các phương thức Cập nhật của Hưng
         public async Task<bool> UpdateCvAsync(
