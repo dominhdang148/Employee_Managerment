@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {}
+    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {}
   },
   "projects": {
-    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
         "projectName": "StaffManage.Core",
-        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
-        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
-        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\obj\\",
+        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,21 +60,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
         "projectName": "StaffManage.Data",
-        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
-        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
-        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\obj\\",
+        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,14 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
               }
             }
           }
@@ -124,21 +134,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
+    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
+        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
         "projectName": "StaffManage.Services",
-        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
-        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
-        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\obj\\",
+        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
+        "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,17 +160,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
               },
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
               }
             }
           }
@@ -186,21 +201,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {
+    "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+        "projectUniqueName": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
         "projectName": "StaffManage.TestConsole",
-        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
-        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
-        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
+        "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+        "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
+        "outputPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,20 +227,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
               },
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
               },
-              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
-                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
+              "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
+                "projectPath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
               }
             }
           }
@@ -259,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QLNV.Services.QLNV
+namespace StaffManage.Services.Manager
 {
 	public interface IStaffRepository
 	{
