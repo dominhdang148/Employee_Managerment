@@ -11,7 +11,8 @@ namespace QLNV.Core.Entities
     public class Employee:IEntity
     {
         public int Id { get; set; }
-        public int QualificationId { get; set; }
+		public string Name { get; set; }
+		public int QualificationId { get; set; }
         public Qualification Qualification { get; set; }
         public int AttendanceId { get; set; }
         public Attendance Attendance { get; set; }
@@ -22,8 +23,8 @@ namespace QLNV.Core.Entities
         public int AbsenceId { get; set; }
         public Absence Absence { get; set; }
 
-
-        public IList<Contract> Contracts { get; set; }
+		public string Position { get; set; }
+		public IList<Contract> Contracts { get; set; }
         public IList<TrainingHistory> TrainingHistories { get; set; }
 
 

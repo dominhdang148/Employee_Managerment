@@ -91,21 +91,34 @@ foreach (var emp in emps)
     Console.WriteLine("Absence: {0}", emp.Absence);
     Console.WriteLine("".PadRight(80, '-'));
 }
-
-using var dbContext = new StaffDbContext();
-var staffManager = new StaffManager(dbContext);
+// Xóa nhân viên
+var employeeIdToDelete = 1;
+IQLNVRepository qlnvRepo = new QLNVRepository(context);
+var deleteResult = await qlnvRepo.DeleteEmployeeAsync(employeeIdToDelete);
+Console.WriteLine(deleteResult ? "Employee deleted successfully" : "Failed to delete employee");
 
 // Xóa toàn bộ nhân viên
-await staffManager.DeleteAllEmployeesAsync();
+var deleteAllResult = await qlnvRepo.DeleteAllEmployeesAsync();
+Console.WriteLine(deleteAllResult ? "All employees deleted successfully" : "Failed to delete all employees");
 
 // Xóa nhân viên theo tên
-await staffManager.DeleteEmployeesByNameAsync("John");
+var employeeNameToDelete = "John Doe";
+var deleteByNameResult = await qlnvRepo.DeleteEmployeesByNameAsync(employeeNameToDelete);
+Console.WriteLine(deleteByNameResult ? $"Employees with name '{employeeNameToDelete}' deleted successfully" : $"Failed to delete employees with name '{employeeNameToDelete}'");
 
 // Xóa các nhân viên cùng công việc
-await staffManager.DeleteEmployeesByWorkAsync(1);
-
+var workIdToDelete = "1";
+if (int.TryParse(workIdToDelete, out int workId))
+{
+	var deleteByWorkResult = await qlnvRepo.DeleteEmployeesByWorkAsync(workId);
+	Console.WriteLine(deleteByWorkResult ? $"Employees with work ID '{workIdToDelete}' deleted successfully" : $"Failed to delete employees with work ID '{workIdToDelete}'");
+}
+else
+{
+	Console.WriteLine($"Invalid work ID: '{workIdToDelete}'");
+}
 // Xóa các nhân viên cùng chức vụ
-await staffManager.DeleteEmployeesByPositionAsync(2);
-
-
+var positionIdToDelete = "1";
+var deleteByPositionResult = await qlnvRepo.DeleteEmployeesByPositionAsync(positionIdToDelete);
+Console.WriteLine(deleteByPositionResult ? $"Employees with position ID '{positionIdToDelete}' deleted successfully" : $"Failed to delete employees with position ID '{positionIdToDelete}'");
 

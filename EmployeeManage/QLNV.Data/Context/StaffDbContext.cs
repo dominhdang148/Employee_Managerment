@@ -25,9 +25,9 @@ namespace QLNV.Data.Context
         public DbSet<Salary> Salary { get; set; }
         public DbSet<TrainingHistory> TrainingHistory { get; set; }
         public DbSet<Work> Work { get; set; }
+		public DbSet<Employee> Employees { get; set; }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source = DELL\\NGOCSON;Database=StaffManage_2; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
         }

@@ -67,55 +67,54 @@ namespace QLNV.Services.QLNV
                 .ToListAsync(cancellationToken);
         }
 
-		/// <summary>
-		/// Xóa toàn bộ nhân viên.
-		/// </summary>
-		/// <param name="cancellationToken">Token hủy (tùy chọn)</param>
-		public async Task DeleteAllEmployeesAsync(CancellationToken cancellationToken = default)
+		public async Task<bool> DeleteEmployeeAsync(int employeeId, CancellationToken cancellationToken = default)
 		{
-			var allEmployees = await _context.Employee.ToListAsync(cancellationToken);
+			var employee = await _context.Employees.FindAsync(employeeId);
+			if (employee == null)
+				return false;
 
-			_context.Employee.RemoveRange(allEmployees);
-			await _context.SaveChangesAsync(cancellationToken);
+			_context.Employees.Remove(employee);
+			return await _context.SaveChangesAsync(cancellationToken) > 0;
 		}
 
-		/// <summary>
-		/// Xóa nhân viên theo tên.
-		/// </summary>
-		/// <param name="name">Tên nhân viên</param>
-		/// <param name="cancellationToken">Token hủy (tùy chọn)</param>
-		public async Task DeleteEmployeesByNameAsync(string name, CancellationToken cancellationToken = default)
+		public async Task<bool> DeleteAllEmployeesAsync(CancellationToken cancellationToken = default)
 		{
-			var employeesToDelete = await _context.Employee.Where(e => e.CurriculumVitae.Name == name).ToListAsync(cancellationToken);
+			var employees = await _context.Employees.ToListAsync(cancellationToken);
+			if (employees == null || employees.Count == 0)
+				return false;
 
-			_context.Employee.RemoveRange(employeesToDelete);
-			await _context.SaveChangesAsync(cancellationToken);
+			_context.Employees.RemoveRange(employees);
+			return await _context.SaveChangesAsync(cancellationToken) > 0;
 		}
 
-		/// <summary>
-		/// Xóa các nhân viên cùng công việc.
-		/// </summary>
-		/// <param name="workId">ID công việc</param>
-		/// <param name="cancellationToken">Token hủy (tùy chọn)</param>
-		public async Task DeleteEmployeesByWorkAsync(int workId, CancellationToken cancellationToken = default)
+		public async Task<bool> DeleteEmployeesByNameAsync(string employeeName, CancellationToken cancellationToken = default)
 		{
-			var employeesToDelete = await _context.Employee.Where(e => e.WorkId == workId).ToListAsync(cancellationToken);
+			var employees = await _context.Employees.Where(e => e.Name == employeeName).ToListAsync(cancellationToken);
+			if (employees == null || employees.Count == 0)
+				return false;
 
-			_context.Employee.RemoveRange(employeesToDelete);
-			await _context.SaveChangesAsync(cancellationToken);
+			_context.Employees.RemoveRange(employees);
+			return await _context.SaveChangesAsync(cancellationToken) > 0;
 		}
 
-		/// <summary>
-		/// Xóa các nhân viên cùng chức vụ.
-		/// </summary>
-		/// <param name="positionId">ID chức vụ</param>
-		/// <param name="cancellationToken">Token hủy (tùy chọn)</param>
-		public async Task DeleteEmployeesByPositionAsync(int positionId, CancellationToken cancellationToken = default)
+		public async Task<bool> DeleteEmployeesByWorkAsync(int workId, CancellationToken cancellationToken = default)
 		{
-			var employeesToDelete = await _context.Employee.Where(e => e.PositionId == positionId).ToListAsync(cancellationToken);
+			var employees = await _context.Employees.Where(e => e.WorkId == workId).ToListAsync(cancellationToken);
+			if (employees == null || employees.Count == 0)
+				return false;
 
-			_context.Employee.RemoveRange(employeesToDelete);
-			await _context.SaveChangesAsync(cancellationToken);
+			_context.Employees.RemoveRange(employees);
+			return await _context.SaveChangesAsync(cancellationToken) > 0;
+		}
+
+		public async Task<bool> DeleteEmployeesByPositionAsync(string position, CancellationToken cancellationToken = default)
+		{
+			var employees = await _context.Employees.Where(e => e.Position == position).ToListAsync(cancellationToken);
+			if (employees == null || employees.Count == 0)
+				return false;
+
+			_context.Employees.RemoveRange(employees);
+			return await _context.SaveChangesAsync(cancellationToken) > 0;
 		}
 	}
 }
