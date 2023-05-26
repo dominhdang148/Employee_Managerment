@@ -15,39 +15,39 @@ namespace StaffManage.Services.Manager
 
         // Code truy vấn ở đây
         // Tìm nhân viên
-        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByNameAsync(
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByNameAsync(
             string name, CancellationToken cancellationToken = default)
         {
             return await _context.Employees.Where(
-                e => e.FullName == name).ToListAsync(cancellationToken);
+                e => e.Name == name).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByAddressAsync(
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByAddressAsync(
             string address, CancellationToken cancellationToken = default)
         {
             return await _context.Employees.Where(
                 e => e.Address == address).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByAgeAsync(
-            string age, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByEmailAsync(
+            string email, CancellationToken cancellationToken = default)
         {
             return await _context.Employees.Where(
-                e => e.Age == age).ToListAsync(cancellationToken);
+                e => e.Email == email).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByJobAsync(
-            string job, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByIdentityCardNumberAsync(
+            string identityCardNumber, CancellationToken cancellationToken = default)
         {
             return await _context.Employees.Where(
-                e => e.Job == job).ToListAsync(cancellationToken);
+                e => e.IdentityCardNumber == identityCardNumber).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<EmployeeInfo>> GetEmployeesByTimeOfWorkAsync(
-            string timeOfWork, CancellationToken cancellationToken = default)
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(
+            string joinedDate, CancellationToken cancellationToken = default)
         {
             return await _context.Employees.Where(
-                e => e.TimeOfWork == timeOfWork).ToListAsync(cancellationToken);
+                e => e.JoinedDate == joinedDate).ToListAsync(cancellationToken);
         }
 
         // Các phương thức Cập nhật của Hưng
