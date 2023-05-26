@@ -72,3 +72,5 @@ foreach (var emp in emps)
     Console.WriteLine("Absence: {0}", emp.Absence);
     Console.WriteLine("".PadRight(80, '-'));
 }
+
+Console.ReadKey();
