@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v3y3yVE3fn3RBHYpijUS/9p4YHigfH0Rjb4+Pg2uIz1+24vCHrs7jxtW9R288C36tJRbpIYwleUiYraTxX1nZA==",
+  "dgSpecHash": "bTvRdZ7x1VbFX90oB6OBkyyF2xvvBvTPp9jB1vx5ieSoHeDUfS/CIi/+rZU7GekAxWqbwq/sVbHjC5XTC39dVg==",
   "success": true,
-  "projectFilePath": "D:\\BaiTap\\TK_PTPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
+  "projectFilePath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxsys\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Maxsys\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
