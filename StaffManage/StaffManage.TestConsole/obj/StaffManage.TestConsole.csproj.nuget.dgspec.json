@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {}
+  },
+  "projects": {
+    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "projectName": "StaffManage.Core",
+        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj",
+        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
+        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "projectName": "StaffManage.Data",
+        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj",
+        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
+        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
+        "projectName": "StaffManage.Services",
+        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj",
+        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
+        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              },
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+        "projectName": "StaffManage.TestConsole",
+        "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+        "packagesPath": "C:\\Users\\TuyenOnichan\\.nuget\\packages\\",
+        "outputPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TuyenOnichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+              },
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
+              },
+              "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
+                "projectPath": "D:\\Học Tập Kỳ 2 Năm 3\\PTTKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
