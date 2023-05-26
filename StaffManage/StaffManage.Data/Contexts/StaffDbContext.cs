@@ -18,17 +18,18 @@ namespace StaffManage.Data.Contexts
         public DbSet<CurriculumVitae> CurriculumVitaes { get; set; }
         public DbSet<Department> Department { get; set; }
         public DbSet<Employee> Employee { get; set; }
+        public DbSet<EmployeeInfo> EmployeeInfo { get; set; }
         public DbSet<Payroll> Payroll { get; set; }
         public DbSet<Position> Position { get; set; }
         public DbSet<Qualification> Qualification { get; set; }
         public DbSet<Salary> Salary { get; set; }
         public DbSet<TrainingHistory> TrainingHistory { get; set; }
         public DbSet<Work> Work { get; set; }
-
+        public IEnumerable<object> Employees { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-D79P76S\DOMINHDANG;Database=StaffManage;Trusted_Connection=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-GJ77F65;Database=QLNV;Trusted_Connection=True;TrustServerCertificate=True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
