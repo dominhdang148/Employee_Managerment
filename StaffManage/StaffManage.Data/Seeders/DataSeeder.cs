@@ -55,9 +55,8 @@ namespace StaffManage.Data.Seeders
             };
         }
         //private IList<Salary> AddSalary()
-        //{
+        //{}
 
-        //}
     
 
         private IList<CurriculumVitae> AddEmployees()
