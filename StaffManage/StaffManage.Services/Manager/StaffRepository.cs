@@ -14,7 +14,7 @@ namespace StaffManage.Services.Manager
         public StaffRepository(StaffDbContext context) => _context = context;
 
         // Code truy vấn ở đây
-        // Tìm nhân viên
+
         public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByNameAsync(
             string name, CancellationToken cancellationToken = default)
         {
