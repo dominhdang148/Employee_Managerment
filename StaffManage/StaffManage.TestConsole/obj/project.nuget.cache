@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Nd1IuXcHs97wxp9F2gxDNkbU24eIJQJgdHAqIH9HZw6mzElvKS16+0A7N0X5EKyqEY+Pp+b11OtgG1y/5esLhw==",
   "success": true,
   "projectFilePath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+=======
+  "dgSpecHash": "MSZaxU/3DOjqABQ+oygN9XtZPWU5QgeqgYtYupoGvLATjEmqYAAatV7PyKWUEMas8gTJU3Mi3YUF+rVIPh8niw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+>>>>>>> origin/Ngu_1
   "expectedPackageFiles": [
     "C:\\Users\\Maxsys\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Maxsys\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

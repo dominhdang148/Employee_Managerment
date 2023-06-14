@@ -1,6 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using StaffManage.Core.Entities;
+﻿using StaffManage.Core.Entities;
 using StaffManage.Data.Contexts;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace StaffManage.Services.Manager
 {
@@ -10,6 +14,41 @@ namespace StaffManage.Services.Manager
         public StaffRepository(StaffDbContext context) => _context = context;
 
         // Code truy vấn ở đây
+
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByNameAsync(
+            string name, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(
+                e => e.Name == name).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByAddressAsync(
+            string address, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(
+                e => e.Address == address).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByEmailAsync(
+            string email, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(
+                e => e.Email == email).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByIdentityCardNumberAsync(
+            string identityCardNumber, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(
+                e => e.IdentityCardNumber == identityCardNumber).ToListAsync(cancellationToken);
+        }
+
+        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(
+            string joinedDate, CancellationToken cancellationToken = default)
+        {
+            return await _context.Employees.Where(
+                e => e.JoinedDate == joinedDate).ToListAsync(cancellationToken);
+        }
 
         // Các phương thức Cập nhật của Hưng
         public async Task<bool> UpdateCvAsync(
