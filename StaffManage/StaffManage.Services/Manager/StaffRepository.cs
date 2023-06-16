@@ -18,37 +18,37 @@ namespace StaffManage.Services.Manager
         public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByNameAsync(
             string name, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(
+            return await _context.CurriculumVitaes.Where(
                 e => e.Name == name).ToListAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByAddressAsync(
             string address, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(
+            return await _context.CurriculumVitaes.Where(
                 e => e.Address == address).ToListAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByEmailAsync(
             string email, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(
+            return await _context.CurriculumVitaes.Where(
                 e => e.Email == email).ToListAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByIdentityCardNumberAsync(
             string identityCardNumber, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(
+            return await _context.CurriculumVitaes.Where(
                 e => e.IdentityCardNumber == identityCardNumber).ToListAsync(cancellationToken);
         }
 
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(
+        /*public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(
             string joinedDate, CancellationToken cancellationToken = default)
         {
-            return await _context.Employees.Where(
+            return await _context.CurriculumVitaes.Where(
                 e => e.JoinedDate == joinedDate).ToListAsync(cancellationToken);
-        }
+        }*/
 
         // Các phương thức Cập nhật của Hưng
         public async Task<bool> UpdateCvAsync(
