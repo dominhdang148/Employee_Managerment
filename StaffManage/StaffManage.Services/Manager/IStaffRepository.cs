@@ -18,6 +18,6 @@ namespace StaffManage.Services.Manager
 
         Task<IEnumerable<CurriculumVitae>> GetEmployeesByIdentityCardNumberAsync(string identityCardNumber, CancellationToken cancellationToken = default);
 
-        Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(string joinedDate, CancellationToken cancellationToken = default);
+        /*Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(string joinedDate, CancellationToken cancellationToken = default);*/
     }
 }
