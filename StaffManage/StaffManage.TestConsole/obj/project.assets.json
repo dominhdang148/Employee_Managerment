@@ -3517,27 +3517,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maxsys\\.nuget\\packages\\": {}
+    "C:\\Users\\Maxsys\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+      "projectUniqueName": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
       "projectName": "StaffManage.TestConsole",
-      "projectPath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
+      "projectPath": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
       "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
-      "outputPath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
-      "projectName": "StaffManage.TestConsole",
-      "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\StaffManage.TestConsole.csproj",
-      "packagesPath": "C:\\Users\\Maxsys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
->>>>>>> origin/Ngu_1
+      "outputPath": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.TestConsole\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Maxsys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3545,31 +3542,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-              "projectPath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
+            "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
+              "projectPath": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
             },
-            "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
-              "projectPath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
+            "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
+              "projectPath": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
             },
-            "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
-              "projectPath": "D:\\BaiTap\\Temp\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
-=======
-            "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj": {
-              "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Core\\StaffManage.Core.csproj"
-            },
-            "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj": {
-              "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Data\\StaffManage.Data.csproj"
-            },
-            "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
-              "projectPath": "C:\\Users\\Maxsys\\Documents\\GitHub\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
->>>>>>> origin/Ngu_1
+            "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj": {
+              "projectPath": "D:\\BaiTap\\PT_TKPM\\Employee_Managerment\\StaffManage\\StaffManage.Services\\StaffManage.Services.csproj"
             }
           }
         }

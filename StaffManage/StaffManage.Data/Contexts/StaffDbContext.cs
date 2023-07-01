@@ -19,6 +19,7 @@ namespace StaffManage.Data.Contexts
         public DbSet<Salary> Salary { get; set; }
         public DbSet<TrainingHistory> TrainingHistory { get; set; }
         public DbSet<Work> Work { get; set; }
+        public DbSet<Department> Departments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

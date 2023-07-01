@@ -1,8 +1,13 @@
-﻿using StaffManage.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using StaffManage.Core.Constants;
+using StaffManage.Core.DTO;
+using StaffManage.Core.Entities;
 using StaffManage.Data.Contexts;
+using StaffManage.Services.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,44 +17,6 @@ namespace StaffManage.Services.Manager
     {
         private readonly StaffDbContext _context;
         public StaffRepository(StaffDbContext context) => _context = context;
-
-        // Code truy vấn ở đây
-
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByNameAsync(
-            string name, CancellationToken cancellationToken = default)
-        {
-            return await _context.Employees.Where(
-                e => e.Name == name).ToListAsync(cancellationToken);
-        }
-
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByAddressAsync(
-            string address, CancellationToken cancellationToken = default)
-        {
-            return await _context.Employees.Where(
-                e => e.Address == address).ToListAsync(cancellationToken);
-        }
-
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByEmailAsync(
-            string email, CancellationToken cancellationToken = default)
-        {
-            return await _context.Employees.Where(
-                e => e.Email == email).ToListAsync(cancellationToken);
-        }
-
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByIdentityCardNumberAsync(
-            string identityCardNumber, CancellationToken cancellationToken = default)
-        {
-            return await _context.Employees.Where(
-                e => e.IdentityCardNumber == identityCardNumber).ToListAsync(cancellationToken);
-        }
-
-        public async Task<IEnumerable<CurriculumVitae>> GetEmployeesByJoinedDateAsync(
-            string joinedDate, CancellationToken cancellationToken = default)
-        {
-            return await _context.Employees.Where(
-                e => e.JoinedDate == joinedDate).ToListAsync(cancellationToken);
-        }
-
         // Các phương thức Cập nhật của Hưng
         public async Task<bool> UpdateCvAsync(
         CurriculumVitae curriculumVitae, CancellationToken cancellationToken = default)
@@ -236,7 +203,83 @@ namespace StaffManage.Services.Manager
             //    return false;
 
             //_context.Employees.RemoveRange(employees);
+
             return await _context.SaveChangesAsync(cancellationToken) > 0;
+        }
+
+        public async Task<IList<CVItem>> GetCVAsync(CancellationToken cancellationToken = default)
+        {
+            IQueryable<CurriculumVitae> cvs = _context.Set<CurriculumVitae>();
+            return await cvs
+                .OrderBy(x => x.Name)
+                .Select(x => new CVItem()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Gender = x.Gender,
+                    PortraitUrl = x.PortraitUrl,
+                    PhoneNumber = x.PhoneNumber,
+                    DateOfBirth = x.DateOfBirth,
+                    IdentityCardNumber = x.IdentityCardNumber,
+                    JoinedDate = x.JoinedDate,
+                    Address = x.Address,
+                    Email = x.Email
+                })
+                .ToListAsync(cancellationToken);
+        }
+
+        public async Task<IList<QualificationItem>> GetQualificationAsync(CancellationToken cancellationToken = default)
+        {
+            IQueryable<Qualification> qualifications = _context.Set<Qualification>();
+
+            return await qualifications
+                .OrderBy(x => x.Name)
+                .Select(x => new QualificationItem()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Type = x.Type,
+                    IssuedDate = x.IssuedDate,
+                })
+                .ToListAsync(cancellationToken);
+        }
+
+        public IQueryable<Employee> FilterEmployee(EmployeeQuery condition)
+        {
+            return _context.Set<Employee>()
+                .Include(q => q.Qualification)
+                .Include(a => a.Attendance)
+                .Include(w => w.Work)
+                .Include(c => c.CurriculumVitae)
+                .Include(a => a.Absence)
+                .WhereIf(condition.CVId > 0, p => p.CurriculumVitaeId == condition.CVId)
+                .WhereIf(condition.QualificationId > 0, p => p.QualificationId == condition.QualificationId)
+                .WhereIf(condition.AttendanceId > 0, p => p.AttendanceId == condition.AttendanceId)
+                .WhereIf(condition.WorkId > 0, p => p.WorkId == condition.WorkId)
+                .WhereIf(condition.AbsenceId > 0, p => p.AbsenceId == condition.AbsenceId)
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.Keyword), e => e.CurriculumVitae.Name.ToLower().Contains(condition.Keyword.ToLower()));
+
+        }
+
+        public async Task<IList<Employee>> GetFilteredEmployeesAsync(EmployeeQuery condition, CancellationToken cancellationToken = default)
+        {
+            return await FilterEmployee(condition)
+                .ToListAsync(cancellationToken);
+        }
+
+        public async Task<Employee> GetEmployeeByIdAsync(int id, bool includeDetails = false, CancellationToken cancellationToken = default)
+        {
+            if (!includeDetails)
+            {
+                return await _context.Set<Employee>().FindAsync(id);
+            }
+            return await _context.Set<Employee>()
+                .Include(x => x.Qualification)
+                .Include(x => x.Absence)
+                .Include(x => x.CurriculumVitae)
+                .Include(x => x.Attendance)
+                .Include(x => x.Work)
+                .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
         }
     }
 }

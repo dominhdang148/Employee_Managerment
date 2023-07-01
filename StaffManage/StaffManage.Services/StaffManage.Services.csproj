@@ -11,8 +11,4 @@
     <ProjectReference Include="..\StaffManage.Data\StaffManage.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-  </ItemGroup>
-
 </Project>
